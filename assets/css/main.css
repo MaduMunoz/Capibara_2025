@@ -2753,3 +2753,22 @@ section {
     height: 300px; /* reduce la altura en móviles */
   }
 }
+
+.ov .ov-item {
+  padding: 40px;
+  background: #FFFDF2;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.ov .ov-item h3 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 4px solid #fffefb;
+  transition: 0.3s;
+}
