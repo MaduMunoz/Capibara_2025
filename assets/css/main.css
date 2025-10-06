@@ -2677,18 +2677,20 @@ section {
   color: var(--color-primary);
 }
 
-/* Hero Section */
-.hero {
+/* HoldingC Section */
+.holdingc {
+  width: 100%;
+  height: 100vh; /* <-- esto hace que sea del alto completo del viewport */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
   position: relative;
   color: white;
 }
 
+
+
 /* Overlay para mejorar la legibilidad del texto */
-.hero .overlay {
+.holdingc .overlay {
   position: absolute;
   top: 0; 
   left: 0;
@@ -2699,9 +2701,55 @@ section {
 }
 
 /* Contenido centrado */
-.hero .hero-content {
+.holdingc .holdingc-content {
   position: relative;
   z-index: 2;
   max-width: 800px;
   padding: 20px;
+}
+
+
+/* Manzana Section - Empresas */
+.manzana {
+  height: auto;
+  padding: 80px 0; /* espacio arriba y abajo */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+
+/* Overlay para mejorar la legibilidad del texto */
+.manzana .overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Negro semi-transparente */
+  z-index: 1;
+}
+
+/* Contenido centrado */
+.manzana .manzana-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Oferta Valor, grafico */
+#imagen-texto .imagen-fondo {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px; /* ajusta según prefieras */
+}
+
+
+@media (max-width: 991px) {
+  #imagen-texto .imagen-fondo {
+    height: 300px; /* reduce la altura en móviles */
+  }
 }
