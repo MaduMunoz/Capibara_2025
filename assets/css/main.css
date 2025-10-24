@@ -551,6 +551,27 @@ section {
   border-radius: 30px;
 }
 
+.services h6 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.services h6:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  bottom: 0;
+}
+
 .services .service-item h3 {
   color: var(--color-default);
   text-align: center;
@@ -689,28 +710,26 @@ section {
 /*--------------------------------------------------------------
 # About Section - index
 --------------------------------------------------------------*/
-.about h2 {
-  font-weight: 700;
-  font-family: var(--font-secondary);
-}
 
-@media (min-width: 991px) {
-  .about h2 {
-    max-width: 65%;
-    margin: 0 0 40px 0;
-  }
+.about h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 .about h2:after {
   content: "";
-  position: relative;
+  position: absolute;
   display: block;
   width: 50px;
   height: 3px;
   background: var(--color-primary);
   left: 0;
   bottom: 0;
-  margin-top: 15px;
 }
 
 @media (min-width: 991px) {
@@ -765,27 +784,24 @@ section {
 # AboutE Section - Empresas
 --------------------------------------------------------------*/
 .aboute h2 {
+  font-size: 28px;
   font-weight: 700;
-  font-family: var(--font-secondary);
-}
-
-@media (min-width: 991px) {
-  .aboute h2 {
-    max-width: 65%;
-    margin: 0 0 40px 0;
-  }
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 .aboute h2:after {
   content: "";
-  position: relative;
+  position: absolute;
   display: block;
   width: 50px;
   height: 3px;
   background: var(--color-primary);
   left: 0;
   bottom: 0;
-  margin-top: 15px;
 }
 
 @media (min-width: 991px) {
@@ -2317,4 +2333,18 @@ section {
   display: inline-block;
   border-bottom: 4px solid #fffefb;
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0; /* reduce el espacio vertical en móviles */
+  }
+
+  .services,
+  .about,
+  .alt-services,
+  .aboute,
+  .section-bg {
+    padding: 40px 0 !important; /* asegura que estas secciones también se ajusten */
+  }
 }
