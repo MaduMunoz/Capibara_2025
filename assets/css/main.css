@@ -2349,6 +2349,20 @@ section {
   }
 }
 
+/* ===== Video Section ===== */
+.video-section {
+  padding: 60px 0;
+}
 
+.video-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  background: #000;
+}
