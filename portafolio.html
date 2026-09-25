@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
       <meta charset="utf-8" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
       <!-- Primary Meta Tags -->
-      <title> Capibara</title>
-      <meta name="title" content="Ecoterra | Capibara" />
+      <title data-en="Portfolio | Capibara">Portafolio | Capibara</title>
+      <meta name="title" content="Portafolio | Capibara" />
       <meta
          name="description"
-         content="Ecoterra: plataforma de alimentos sostenibles en Chile, empresa del portafolio de Capibara."
+         content="Portafolio de Capibara: empresas de alimentos sostenibles en el Cono Sur."
          />
       <!-- Favicons -->
       <link href="assets/img/favicon.png" rel="icon" />
@@ -45,12 +45,18 @@
             <!-- Menú principal -->
             <nav id="navbar" class="navbar">
                <ul>
-                  <li><a href="index.html">Por qué Capibara</a></li>
-                  <li><a href="nosotros.html">Nosotros</a></li>
-                  <li><a href="empresas.html">Cómo invertimos</a></li>
-                  <li><a href="portafolio.html" class="active">Portafolio</a></li>
-                  <li><a href="marco de impacto.html">Marco de impacto</a></li>
-                  <li><a href="contactanos.html">Contáctanos</a></li>
+                  <li><a href="index.html" data-en="Why Capibara">Por qué Capibara</a></li>
+                  <li><a href="nosotros.html" data-en="About us">Nosotros</a></li>
+                  <li><a href="empresas.html" data-en="How we invest">Cómo invertimos</a></li>
+                  <li><a href="portafolio.html" class="active" data-en="Portfolio">Portafolio</a></li>
+                  <li><a href="marco de impacto.html" data-en="Impact framework">Marco de impacto</a></li>
+                  <li><a href="contactanos.html" data-en="Contact us">Contáctanos</a></li>
+                  <li class="nav-item" style="display:flex; align-items:center; margin-left:16px;">
+                     <div style="display:inline-flex; border:1px solid #F8EDD5; border-radius:20px; overflow:hidden; font-size:13px; font-weight:600; letter-spacing:0.5px;">
+                        <button type="button" data-lang-btn="es" onclick="setLang('es')" style="background:#F8EDD5; color:#1B2A4A; border:none; padding:6px 12px; cursor:pointer;">ES</button>
+                        <button type="button" data-lang-btn="en" onclick="setLang('en')" style="background:transparent; color:#F8EDD5; border:none; padding:6px 12px; cursor:pointer;">EN</button>
+                     </div>
+                  </li>
                </ul>
             </nav>
             <!-- .navbar -->
@@ -59,39 +65,41 @@
       <!-- End Header -->
 
       <section id="hero" class="hero">
-   <div class="info d-flex align-items-center">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="col-lg-6 d-flex justify-content-center">
-               <img src="assets/img/logo_b.png" alt="Logo Ambition Loop" class="my-4" width="100%" data-aos="fade-down">
+         <div class="info d-flex align-items-center">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-6 d-flex justify-content-center">
+                     <img src="assets/img/logo_b.png" alt="Logo Capibara" class="my-4" width="100%" data-aos="fade-down">
+                  </div>
+               </div>
             </div>
          </div>
-      </div>
-   </div>
-   <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-7.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-6.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg);"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg);"></div>
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-   </div>
-</section>
+         <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-7.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-6.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg);"></div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg);"></div>
+            <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
+         </div>
+      </section>
+
+      <main id="main">
 
 <!-- ======= Portafolio Intro Section ======= -->
 <section id="pipeline-intro" style="padding-top:90px; padding-bottom:70px; background:#fdf8e3;">
    <div class="container" data-aos="fade-up">
       <div class="row justify-content-center text-center">
          <div class="col-lg-8">
-            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">Nuestro pipeline</span>
-            <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0 0 20px 0; letter-spacing:-0.5px;">Nuestro portafolio en números</h2>
+            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;" data-en="Our pipeline">Nuestro pipeline</span>
+            <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0 0 20px 0; letter-spacing:-0.5px;" data-en="Our portfolio in numbers">Nuestro portafolio en números</h2>
          </div>
       </div>
 
@@ -99,88 +107,92 @@
          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div style="text-align:center;">
                <div style="font-size:3em; font-weight:800; color:#3a6b63; line-height:1;">100+</div>
-               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;">Empresas evaluadas en nuestro pipeline</p>
+               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;" data-en="Companies evaluated in our pipeline">Empresas evaluadas en nuestro pipeline</p>
             </div>
          </div>
          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
             <div style="text-align:center;">
                <div style="font-size:3em; font-weight:800; color:#3a6b63; line-height:1;">2</div>
-               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;">Inversiones realizadas</p>
+               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;" data-en="Investments made">Inversiones realizadas</p>
             </div>
          </div>
          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div style="text-align:center;">
                <div style="font-size:3em; font-weight:800; color:#3a6b63; line-height:1;">4</div>
-               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;">Empresas en el portafolio a fines de 2026</p>
+               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;" data-en="Portfolio companies by the end of 2026">Empresas en el portafolio a fines de 2026</p>
             </div>
          </div>
          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div style="text-align:center;">
                <div style="font-size:3em; font-weight:800; color:#3a6b63; line-height:1;">US$4M</div>
-               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;">Invertidos en empresas del Cono Sur a fines de 2026</p>
+               <p style="color:#5a6a72; margin:10px 0 0 0; font-size:0.95em;" data-en="Invested in Southern Cone companies by the end of 2026">Invertidos en empresas del Cono Sur a fines de 2026</p>
             </div>
          </div>
       </div>
    </div>
 </section>
 <!-- End Portafolio Intro Section -->
- <!-- ======= Proceso de Inversión Section ======= -->
-<section id="datos-clave" class="services" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
+
+<!-- ======= Proceso de Inversión Section ======= -->
+<section id="proceso-inversion" class="services" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
    <div class="container" data-aos="fade-up">
       <div class="section-header">
-         <h2 style="color:#ffffff;">Proceso de inversión</h2>
-         <h4 style="color:#c3d3d8; font-weight:400;">Cómo pasamos de scouting a firma de contrato, en 6 pasos</h4>
+         <h2 style="color:#ffffff;" data-en="Investment Process">Proceso de inversión</h2>
+         <h4 style="color:#c3d3d8; font-weight:400;" data-en="How we go from scouting to contract signing, in 6 steps">Cómo pasamos de scouting a firma de contrato, en 6 pasos</h4>
       </div>
       <div class="row gy-4 justify-content-center" style="margin-top:30px;">
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="50">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">1</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Scouting</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Scouting">Scouting</h3>
             </div>
          </div>
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">2</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Filtro Go / no Go</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Go / No-Go Filter">Filtro Go / no Go</h3>
             </div>
          </div>
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="150">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">3</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Análisis y alineación</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Analysis and Alignment">Análisis y alineación</h3>
             </div>
          </div>
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">4</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Valoración y negociación</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Valuation and Negotiation">Valoración y negociación</h3>
             </div>
          </div>
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="250">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">5</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Debida diligencia</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Due Diligence">Debida diligencia</h3>
             </div>
          </div>
          <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
             <div style="background:#20475a; border-radius:16px; padding:24px 16px; height:100%; text-align:center;">
                <div style="width:40px; height:40px; margin:0 auto 14px; border-radius:50%; background:#8fd1c8; color:#1c3a4a; display:flex; align-items:center; justify-content:center; font-weight:800;">6</div>
-               <h3 style="color:#ffffff; font-size:1em; margin:0;">Firma de contratos</h3>
+               <h3 style="color:#ffffff; font-size:1em; margin:0;" data-en="Sign Contracts">Firma de contratos</h3>
             </div>
          </div>
       </div>
-      <p style="text-align:center; color:#c3d3d8; margin-top:34px; max-width:640px; margin-left:auto; margin-right:auto;">Con comités de inversión y directorio participando en los hitos clave del proceso.</p>
+      <p style="text-align:center; color:#c3d3d8; margin-top:34px; max-width:640px; margin-left:auto; margin-right:auto;" data-en="With investment committees and the board taking part in the key milestones of the process.">Con comités de inversión y directorio participando en los hitos clave del proceso.</p>
    </div>
 </section>
 <!-- End Proceso de Inversión Section -->
-<!-- ======= Company Header Section ======= -->
+
+<!-- ========================= ECOTERRA ========================= -->
+
+<!-- ======= Company Header Section: Ecoterra ======= -->
 <section id="mission" style="padding-top: 90px; padding-bottom: 60px; background:#fdf8e3;">
    <div class="container" data-aos="fade-up">
       <div class="row align-items-center gy-4">
          <div class="col-lg-6">
             <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">Chile</span>
             <h2 style="color:#1c3a4a; font-weight:800; font-size:2.4em; margin:0 0 24px 0; letter-spacing:-0.5px;">Ecoterra</h2>
-            <p style="color:#5a6a72; line-height:1.7; font-size:1.1em; margin:0;">Plataforma de alimentos sostenibles que conecta a productores sostenibles con consumidores conscientes, utilizando tecnología descentralizada.</p>
+            <p style="color:#5a6a72; line-height:1.7; font-size:1.1em; margin:0;" data-en="Sustainable food platform connecting sustainable producers with conscious consumers through decentralized technology. It currently sells more than 80 products (SKUs)">Plataforma de alimentos sostenibles que conecta a productores sostenibles con consumidores conscientes, utilizando tecnología descentralizada.</p>
          </div>
          <div class="col-lg-6">
             <img src="assets/img/ecoterra.jpg" alt="Ecoterra" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.15);">
@@ -188,57 +200,55 @@
       </div>
    </div>
 </section>
-<!-- End Company Header Section -->
-         <!-- ======= Fecha de fundación / Qué hace / Impacto Section ======= -->
-<section id="datos-clave" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
+<!-- End Company Header Section: Ecoterra -->
+
+<!-- ======= Fecha de fundación / Qué hace / Impacto Section: Ecoterra ======= -->
+<section id="datos-clave-ecoterra" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
    <div class="container" data-aos="fade-up">
 
       <div class="row align-items-center gy-4" style="margin-bottom:60px;">
          <div class="col-lg-7">
-            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;">Datos clave</span>
-            <h2 style="color:#ffffff; font-weight:800; font-size:2em; margin:0; letter-spacing:-0.5px;">Ecoterra en números</h2>
+            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;" data-en="Key facts">Datos clave</span>
+            <h2 style="color:#ffffff; font-weight:800; font-size:2em; margin:0; letter-spacing:-0.5px;" data-en="Ecoterra in numbers">Ecoterra en números</h2>
          </div>
          <div class="col-lg-5 text-lg-end">
             <span style="font-size:3.2em; font-weight:800; color:#8fd1c8; line-height:1;">2011</span>
-            <p style="color:#c3d3d8; margin:4px 0 0 0; font-size:0.95em;">Año de fundación</p>
+            <p style="color:#c3d3d8; margin:4px 0 0 0; font-size:0.95em;" data-en="Year founded">Año de fundación</p>
          </div>
       </div>
 
       <div class="row gy-5">
 
          <div class="col-lg-6">
-            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);">Qué hace?</h3>
-            <p style="color:#c3d3d8; line-height:1.7; margin:0; font-size:1.05em;">Ecoterra es una AgriFoodTech que conecta a "EcoFarmers", "EcoLovers" y "EcoPartners", creando un ciclo virtuoso de impacto sostenible. Produce y comercializa huevos de gallinas a pastoreo, lácteos de vacas y cabras libres, mantequillas y snacks/barritas de proteína, garantizando origen, bienestar animal y trazabilidad.</p>
+            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);" data-en="What does it do?">¿Qué hace?</h3>
+            <p style="color:#c3d3d8; line-height:1.7; margin:0; font-size:1.05em;" data-en="Ecoterra is an AgriFoodTech company that connects “EcoFarmers,” “EcoLovers” and “EcoPartners,” creating a virtuous cycle of sustainable impact. It produces and sells pasture-raised eggs, dairy from free-range cows and goats, butters, and protein snacks and bars, guaranteeing origin, animal welfare and traceability.">Ecoterra es una AgriFoodTech que conecta a “EcoFarmers”, “EcoLovers” y “EcoPartners”, creando un ciclo virtuoso de impacto sostenible. Produce y comercializa huevos de gallinas a pastoreo, lácteos de vacas y cabras libres, mantequillas y snacks/barritas de proteína, garantizando origen, bienestar animal y trazabilidad.</p>
          </div>
 
          <div class="col-lg-6">
-            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);">Impacto ambiental y social</h3>
+            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);" data-en="Environmental and social impact">Impacto ambiental y social</h3>
             <div style="display:flex; flex-direction:column; gap:14px;">
                <div style="display:flex; align-items:baseline; gap:14px;">
-                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">1.393</span>
-                  <span style="color:#c3d3d8; font-size:1em;">hectáreas destinadas a sistemas sustentables</span>
+                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;" data-en="1,393">1.393</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="hectares dedicated to sustainable systems">hectáreas destinadas a sistemas sustentables</span>
                </div>
                <div style="display:flex; align-items:baseline; gap:14px;">
-                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">143.200</span>
-                  <span style="color:#c3d3d8; font-size:1em;">animales habitando un sistema de bienestar</span>
+                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;" data-en="143,200">143.200</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="animals living in a welfare system">animales habitando un sistema de bienestar</span>
                </div>
                <div style="display:flex; align-items:baseline; gap:14px;">
-                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">6,86 t</span>
-                  <span style="color:#c3d3d8; font-size:1em;">reducidas de desperdicio de alimentos</span>
+                  <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;" data-en="6.86 t">6,86 t</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="of food waste reduced">reducidas de desperdicio de alimentos</span>
                </div>
-               <p style="color:#c3d3d8; margin:6px 0 0 0; font-size:0.95em;">Primera empresa certificada <b style="color:#ffffff;">Certified Humane</b>, y con sellos como Empresa B, Land to Market, entre otros.</p>
+               <p style="color:#c3d3d8; margin:6px 0 0 0; font-size:0.95em;"><span data-en="The first company certified">Primera empresa certificada</span> <b style="color:#ffffff;">Certified Humane</b><span data-en=", also holding seals such as B Corp and Land to Market, among others.">, y con sellos como Empresa B, Land to Market, entre otros.</span></p>
             </div>
          </div>
 
       </div>
    </div>
 </section>
-<!-- End Datos Clave / Qué hace / Impacto Section -->
+<!-- End Datos Clave / Qué hace / Impacto Section: Ecoterra -->
 
-
-
-<!-- ========================= ZAFRÁN ============================ -->
-<!-- ============================================================ -->
+<!-- ========================= ZAFRÁN =========================== -->
 
 <!-- ======= Company Header Section: Zafrán ======= -->
 <section id="mission-zafran" style="padding-top: 90px; padding-bottom: 60px; background:#fdf8e3;">
@@ -247,7 +257,7 @@
          <div class="col-lg-6">
             <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">Argentina</span>
             <h2 style="color:#1c3a4a; font-weight:800; font-size:2.4em; margin:0 0 24px 0; letter-spacing:-0.5px;">Zafrán</h2>
-            <p style="color:#5a6a72; line-height:1.7; font-size:1.1em; margin:0;">Zafrán nació con una premisa simple pero poco común en la industria: que cada ingrediente en la etiqueta sea uno que reconozcas. Sus barras de frutos secos, cereal y proteicas, granolas y galletitas integrales se hacen sin aditivos artificiales ni atajos, solo "recetas honestas" que nutren de verdad.</p>
+            <p style="color:#5a6a72; line-height:1.7; font-size:1.1em; margin:0;" data-en="Zafrán was founded on a simple premise that is rare in the industry: every ingredient on the label should be one you recognize. Its nut, cereal and protein bars, granolas and whole-grain cookies are made without artificial additives or shortcuts, just “honest recipes” that truly nourish.">Zafrán nació con una premisa simple pero poco común en la industria: que cada ingrediente en la etiqueta sea uno que reconozcas. Sus barras de frutos secos, cereal y proteicas, granolas y galletitas integrales se hacen sin aditivos artificiales ni atajos, solo “recetas honestas” que nutren de verdad.</p>
          </div>
          <div class="col-lg-6">
             <img src="assets/img/logoza.png" alt="Zafrán" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.15);">
@@ -263,38 +273,38 @@
 
       <div class="row align-items-center gy-4" style="margin-bottom:60px;">
          <div class="col-lg-7">
-            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;">Datos clave</span>
-            <h2 style="color:#ffffff; font-weight:800; font-size:2em; margin:0; letter-spacing:-0.5px;">Zafrán en números</h2>
+            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;" data-en="Key facts">Datos clave</span>
+            <h2 style="color:#ffffff; font-weight:800; font-size:2em; margin:0; letter-spacing:-0.5px;" data-en="Zafrán in numbers">Zafrán en números</h2>
          </div>
          <div class="col-lg-5 text-lg-end">
             <span style="font-size:3.2em; font-weight:800; color:#8fd1c8; line-height:1;">2012</span>
-            <p style="color:#c3d3d8; margin:4px 0 0 0; font-size:0.95em;">Año de fundación</p>
+            <p style="color:#c3d3d8; margin:4px 0 0 0; font-size:0.95em;" data-en="Year founded">Año de fundación</p>
          </div>
       </div>
 
       <div class="row gy-5">
 
          <div class="col-lg-6">
-            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);">Qué hace?</h3>
-            <p style="color:#c3d3d8; line-height:1.7; margin:0; font-size:1.05em;">Zafrán desarrolla y comercializa snacks y alimentos saludables, como barritas, granolas, galletitas y mixes, elaborados con recetas honestas y bajo criterios de nutrición y bajo procesamiento. Su propósito es mejorar el mundo a través de una alimentación que nutra, genere trabajo inclusivo y regenere la Tierra.</p>
+            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);" data-en="What does it do?">¿Qué hace?</h3>
+            <p style="color:#c3d3d8; line-height:1.7; margin:0; font-size:1.05em;" data-en="Zafrán develops and sells healthy snacks and foods, such as bars, granolas, cookies and mixes, made with honest recipes under nutrition and minimal-processing criteria. Its purpose is to improve the world through food that nourishes, creates inclusive employment and regenerates the Earth.">Zafrán desarrolla y comercializa snacks y alimentos saludables, como barritas, granolas, galletitas y mixes, elaborados con recetas honestas y bajo criterios de nutrición y bajo procesamiento. Su propósito es mejorar el mundo a través de una alimentación que nutra, genere trabajo inclusivo y regenere la Tierra.</p>
          </div>
 
          <div class="col-lg-6">
-            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);">Impacto ambiental y social</h3>
+            <h3 style="color:#ffffff; font-weight:800; font-size:1.3em; margin-bottom:16px; padding-bottom:14px; border-bottom:2px solid rgba(255,255,255,0.2);" data-en="Environmental and social impact">Impacto ambiental y social</h3>
             <div style="display:flex; flex-direction:column; gap:14px;">
                <div style="display:flex; align-items:baseline; gap:14px;">
                   <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">+50%</span>
-                  <span style="color:#c3d3d8; font-size:1em;">del equipo con altas barreras al empleo (discapacidad, víctimas de violencia de género, migrantes, entre otras)</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="of the team faces high barriers to employment (disability, survivors of gender-based violence, migrants, among others)">del equipo con altas barreras al empleo (discapacidad, víctimas de violencia de género, migrantes, entre otras)</span>
                </div>
                <div style="display:flex; align-items:baseline; gap:14px;">
                   <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">1%</span>
-                  <span style="color:#c3d3d8; font-size:1em;">de las ventas donado a través de 1% for the Planet, a ONGs de educación para la regeneración</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="of sales donated through 1% for the Planet to NGOs focused on education for regeneration">de las ventas donado a través de 1% for the Planet, a ONGs de educación para la regeneración</span>
                </div>
                <div style="display:flex; align-items:baseline; gap:14px;">
                   <span style="font-weight:800; color:#8fd1c8; font-size:1.3em; min-width:75px;">2020</span>
-                  <span style="color:#c3d3d8; font-size:1em;">certificada como Empresa B</span>
+                  <span style="color:#c3d3d8; font-size:1em;" data-en="certified as a B Corp">certificada como Empresa B</span>
                </div>
-               <p style="color:#c3d3d8; margin:6px 0 0 0; font-size:0.95em;">Compromiso <b style="color:#ffffff;">Nunca HB4</b> (sin soja transgénica resistente a la sequía), y prácticas que cuidan los suelos y la biodiversidad en su cadena de proveedores.</p>
+               <p style="color:#c3d3d8; margin:6px 0 0 0; font-size:0.95em;"><span data-en="">Compromiso </span><b style="color:#ffffff;" data-en="Never HB4">Nunca HB4</b><span data-en=" commitment (no drought-resistant GM soy), and practices that protect soils and biodiversity across its supply chain."> (sin soja transgénica resistente a la sequía), y prácticas que cuidan los suelos y la biodiversidad en su cadena de proveedores.</span></p>
             </div>
          </div>
 
@@ -303,29 +313,8 @@
 </section>
 <!-- End Datos Clave / Qué hace / Impacto Section: Zafrán -->
 
-      
-
-
-               </div>
-            </div>
-         </section>
-         <!-- End Inversión Section -->
-
-         <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-         <div id="preloader"></div>
-         <!-- Vendor JS Files -->
-         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-         <script src="assets/vendor/aos/aos.js"></script>
-         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-         <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-         <script src="assets/vendor/php-email-form/validate.js"></script>
-         <!-- Template Main JS File -->
-         <script src="assets/js/main.js"></script>
-         <!-- Developed by Madu Muñoz @madumunoz, based on template by Bootstrap -->
-
       </main>
+      <!-- End #main -->
 
       <!-- ======= Footer ======= -->
       <footer id="footer" class="footer" style="background-image: url(assets/img/footer-2.jpg);">
@@ -338,8 +327,7 @@
                         <div class="social-links d-flex mt-3">
                            <a href="https://twitter.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
                            <a href="https://www.instagram.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                          <a href="https://www.linkedin.com/company/capibaralat/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-
+                           <a href="https://www.linkedin.com/company/capibaralat/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                         </div>
                      </div>
                   </div>
@@ -349,14 +337,54 @@
          <div class="footer-legal text-center position-relative">
             <div class="container">
                <div class="copyright">
-                  &copy; Copyright <strong><span>Capibara</span></strong>. All Rights Reserved
+                  &copy; Copyright <strong><span>Capibara</span></strong>. <span data-en="All rights reserved">Todos los derechos reservados</span>
                </div>
             </div>
          </div>
       </footer>
       <!-- End Footer -->
+
+      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <div id="preloader"></div>
+
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+
+      <!-- ======= Selector de idioma ES / EN ======= -->
+      <script>
+         function setLang(lang) {
+            document.querySelectorAll('[data-en]').forEach(function (el) {
+               if (!el.hasAttribute('data-es')) {
+                  el.setAttribute('data-es', el.innerHTML);
+               }
+               el.innerHTML = (lang === 'en') ? el.getAttribute('data-en') : el.getAttribute('data-es');
+            });
+
+            document.documentElement.setAttribute('lang', lang);
+
+            document.querySelectorAll('[data-lang-btn]').forEach(function (btn) {
+               var active = btn.getAttribute('data-lang-btn') === lang;
+               btn.style.background = active ? '#F8EDD5' : 'transparent';
+               btn.style.color = active ? '#1B2A4A' : '#F8EDD5';
+            });
+
+            try { localStorage.setItem('capibaraLang', lang); } catch (e) {}
+         }
+
+         document.addEventListener('DOMContentLoaded', function () {
+            var saved = 'es';
+            try { saved = localStorage.getItem('capibaraLang') || 'es'; } catch (e) {}
+            setLang(saved);
+         });
+      </script>
+      <!-- Developed by Madu Muñoz @madumunoz, based on template by Bootstrap -->
    </body>
 </html>
-
-      
-
