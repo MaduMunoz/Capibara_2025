@@ -4,22 +4,16 @@
       <meta charset="utf-8" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
       <!-- Primary Meta Tags -->
-      <title>Capibara | Marco de Impacto</title>
+      <title data-en="Capibara | Impact Framework">Capibara | Marco de Impacto</title>
       <meta name="title" content="Capibara | Marco de Impacto" />
-      <meta
-         name="description"
-         content="Marco de impacto de Capibara: cómo acompañamos, medimos y potenciamos el propósito de las empresas de nuestro portafolio."
-         />
+      <meta name="description" content="Marco de impacto de Capibara: cómo acompañamos, medimos y potenciamos el propósito de las empresas de nuestro portafolio." />
       <!-- Favicons -->
       <link href="assets/img/favicon.png" rel="icon" />
       <link href="assets/img/favicon.png" rel="apple-touch-icon" />
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-         rel="stylesheet"
-         />
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
       <!-- Vendor CSS Files -->
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
@@ -37,7 +31,7 @@
          <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <!-- Logo -->
             <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo2.png" alt="Logo Capibara" class="my-2" style="max-height:20px;">
+               <img src="assets/img/logo2.png" alt="Logo Capibara" class="my-2" style="max-height:20px;">
             </a>
             <!-- Botones del menú móvil -->
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -45,12 +39,18 @@
             <!-- Menú principal -->
             <nav id="navbar" class="navbar">
                <ul>
-                  <li><a href="index.html">Por qué Capibara</a></li>
-                  <li><a href="nosotros.html">Nosotros</a></li>
-                  <li><a href="empresas.html">Cómo invertimos</a></li>
-                  <li><a href="portafolio.html">Portafolio</a></li>
-                  <li><a href="marco de impacto.html" class="active">Marco de impacto</a></li>
-                  <li><a href="contactanos.html">Contáctanos</a></li>
+                  <li><a href="index.html" data-en="Why Capibara">Por qué Capibara</a></li>
+                  <li><a href="nosotros.html" data-en="About Us">Nosotros</a></li>
+                  <li><a href="empresas.html" data-en="How We Invest">Cómo invertimos</a></li>
+                  <li><a href="portafolio.html" data-en="Portfolio">Portafolio</a></li>
+                  <li><a href="marco de impacto.html" class="active" data-en="Impact Framework">Marco de impacto</a></li>
+                  <li><a href="contactanos.html" data-en="Contact Us">Contáctanos</a></li>
+                  <li class="nav-item" style="display:flex; align-items:center; margin-left:16px;">
+                     <div style="display:inline-flex; border:1px solid #F8EDD5; border-radius:20px; overflow:hidden; font-size:13px; font-weight:600; letter-spacing:0.5px;">
+                        <button type="button" data-lang-btn="es" onclick="setLang('es')" style="background:#F8EDD5; color:#1B2A4A; border:none; padding:6px 12px; cursor:pointer;">ES</button>
+                        <button type="button" data-lang-btn="en" onclick="setLang('en')" style="background:transparent; color:#F8EDD5; border:none; padding:6px 12px; cursor:pointer;">EN</button>
+                     </div>
+                  </li>
                </ul>
             </nav>
             <!-- .navbar -->
@@ -77,10 +77,10 @@
             <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg);"></div>
             <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg);"></div>
             <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+               <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
             </a>
             <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+               <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
             </a>
          </div>
       </section>
@@ -88,267 +88,290 @@
 
       <main id="main">
 
-   
-          <!-- ======= Por qué Sistemas Alimentarios Section ======= -->
-<section id="por-que-sistemas" class="aboute">
-  <div class="container" data-aos="fade-up">
-    <div class="row align-items-center gy-5">
-      <div class="col-lg-5 ps-lg-9" style="padding-left: 80px;">
-        <div style="position:relative;">
-           <div style="position:absolute; top:-14px; left:-14px; width:100%; height:100%; background:#d6e3e3; border-radius:20px; z-index:0;"></div>
-           <img src="assets/img/alimentos.png" alt="Sistemas alimentarios" style="position:relative; z-index:1; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.18); display:block;">
-        </div>
-      </div>
-      <div class="col-lg-7 ps-lg-4">
-        <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">El sector</span>
-        <h2 style="margin-bottom:22px;">Por qué Sistemas Alimentarios</h2>
-        <div class="our-story">
-          <p>Los sistemas alimentarios son uno de los sectores con mayor impacto social y ambiental a nivel mundial. Al mismo tiempo, tienen el potencial no solo de transformar los estándares dentro de su propia industria, sino también de influir en muchas otras, debido a la fuerte interconexión de sus efectos sociales y ambientales.</p>
-          <div style="border-left: 4px solid #6f9391; background:#f4f0da; border-radius: 0 12px 12px 0; padding: 20px 24px; margin-top: 20px;">
-             <p style="font-size: 1.1em; font-weight: 700; color:#1c3a4a; margin:0;">Invertir en sistemas alimentarios es apostar por un sector estratégico, con alto impacto ambiental y social. Invertir en alimentos es invertir en salud, trabajo y desarrollo territorial.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Por qué Sistemas Alimentarios Section -->
-
- <!-- ======= Algunas cifras Section ======= -->
-<section id="cifras" style="background:#d6e3e3; padding-top:90px; padding-bottom:90px;">
-   <div class="container" data-aos="fade-up">
-      <div class="section-header">
-         <h2 style="color:#1c3a4a; font-size:1.8em; font-weight:800;">Lo que está en juego</h2>
-<h4 style="color:#1c3a4a; font-size:1.1em; font-weight:700;">El costo real de los sistemas alimentarios</h4>
-
-         
-      </div>
-
-      <div class="row gy-4 justify-content-center" style="margin-top:20px;">
-
-         <!-- Crisis Ambiental -->
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
-               <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">🌍</div>
-               <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;">Crisis Ambiental</p>
-               <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">30%</div>
-               <p style="color:#c3d3d8; margin:8px 0 26px 0;">de emisiones de gases de efecto invernadero (GEI)</p>
-               <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
-                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">Deforestación global</span>
-                     <span style="color:#8fd1c8; font-weight:700;">80%</span>
+         <!-- ======= Por qué Sistemas Alimentarios Section ======= -->
+         <section id="por-que-sistemas" class="aboute">
+            <div class="container" data-aos="fade-up">
+               <div class="row align-items-center gy-5">
+                  <div class="col-lg-5 ps-lg-9" style="padding-left: 80px;">
+                     <div style="position:relative;">
+                        <div style="position:absolute; top:-14px; left:-14px; width:100%; height:100%; background:#d6e3e3; border-radius:20px; z-index:0;"></div>
+                        <img src="assets/img/alimentos.png" alt="Sistemas alimentarios" style="position:relative; z-index:1; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.18); display:block;">
+                     </div>
                   </div>
-                  <div style="display:flex; justify-content:space-between; align-items:center;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">Consumo de agua fresca</span>
-                     <span style="color:#8fd1c8; font-weight:700;">70%</span>
+                  <div class="col-lg-7 ps-lg-4">
+                     <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;" data-en="The Sector">El sector</span>
+                     <h2 style="margin-bottom:22px;" data-en="Why Food Systems">Por qué Sistemas Alimentarios</h2>
+                     <div class="our-story">
+                        <p data-en="What we eat sustains us—as individuals, as societies, and as a planet. We chose this sector because we deeply care about how the system that feeds us works.
+
+Investing in food systems means investing in a strategic sector with high environmental and social impact. Investing in food means investing in health, jobs, and local development.">Los sistemas alimentarios son uno de los sectores con mayor impacto social y ambiental a nivel mundial. Al mismo tiempo, tienen el potencial no solo de transformar los estándares dentro de su propia industria, sino también de influir en muchas otras, debido a la fuerte interconexión de sus efectos sociales y ambientales.</p>
+                        <div style="border-left: 4px solid #6f9391; background:#f4f0da; border-radius: 0 12px 12px 0; padding: 20px 24px; margin-top: 20px;">
+                           <p style="font-size: 1.1em; font-weight: 700; color:#1c3a4a; margin:0;" data-en="Investing in food systems means betting on a strategic sector with high environmental and social impact. Investing in food is investing in health, employment and territorial development.">Invertir en sistemas alimentarios es apostar por un sector estratégico, con alto impacto ambiental y social. Invertir en alimentos es invertir en salud, trabajo y desarrollo territorial.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
+         </section>
+         <!-- End Por qué Sistemas Alimentarios Section -->
 
-         <!-- Malnutrición y desperdicio -->
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
-               <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">🍽️</div>
-               <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;">Malnutrición y desperdicio</p>
-               <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">820M</div>
-               <p style="color:#c3d3d8; margin:8px 0 26px 0;">de personas que sufren de hambre</p>
-               <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
-                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">No costean dietas balanceadas</span>
-                     <span style="color:#8fd1c8; font-weight:700;">3000M</span>
+         <!-- ======= Algunas cifras Section ======= -->
+         <section id="cifras" style="background:#d6e3e3; padding-top:90px; padding-bottom:90px;">
+            <div class="container" data-aos="fade-up">
+               <div class="section-header">
+                  <h2 style="color:#1c3a4a; font-size:1.8em; font-weight:800;" data-en="What Is at Stake">Lo que está en juego</h2>
+                  <h4 style="color:#1c3a4a; font-size:1.1em; font-weight:700;" data-en="The True Cost of Food Systems">El costo real de los sistemas alimentarios</h4>
+               </div>
+
+               <div class="row gy-4 justify-content-center" style="margin-top:20px;">
+
+                  <!-- Crisis Ambiental -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                     <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
+                        <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">🌍</div>
+                        <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;" data-en="Environmental Crisis">Crisis Ambiental</p>
+                        <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">30%</div>
+                        <p style="color:#c3d3d8; margin:8px 0 26px 0;" data-en="of greenhouse gas (GHG) emissions">de emisiones de gases de efecto invernadero (GEI)</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
+                           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Global deforestation">Deforestación global</span>
+                              <span style="color:#8fd1c8; font-weight:700;">80%</span>
+                           </div>
+                           <div style="display:flex; justify-content:space-between; align-items:center;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Freshwater use">Consumo de agua fresca</span>
+                              <span style="color:#8fd1c8; font-weight:700;">70%</span>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div style="display:flex; justify-content:space-between; align-items:center;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">Producción que se desperdicia</span>
-                     <span style="color:#8fd1c8; font-weight:700;">30%</span>
+
+                  <!-- Malnutrición y desperdicio -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
+                        <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">🍽️</div>
+                        <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;" data-en="Food Insecurity">Malnutrición y desperdicio</p>
+                        <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">820M</div>
+                        <p style="color:#c3d3d8; margin:8px 0 26px 0;" data-en="people suffering from hunger">de personas que sufren de hambre</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
+                           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Cannot afford a healthy diet">No costean dietas balanceadas</span>
+                              <span style="color:#8fd1c8; font-weight:700;" data-en="3B">3000M</span>
+                           </div>
+                           <div style="display:flex; justify-content:space-between; align-items:center;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Production that goes to waste">Producción que se desperdicia</span>
+                              <span style="color:#8fd1c8; font-weight:700;">30%</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Desigualdad -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                     <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
+                        <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">⚖️</div>
+                        <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;" data-en="Inequality">Desigualdad</p>
+                        <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">50%</div>
+                        <p style="color:#c3d3d8; margin:8px 0 26px 0;" data-en="of food comes from small-scale producers living in vulnerable conditions">de alimentos de pequeños productores, en vulnerabilidad</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
+                           <div style="display:flex; align-items:center; margin-bottom:12px;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Land concentration">Concentración de la tierra</span>
+                           </div>
+                           <div style="display:flex; align-items:center;">
+                              <span style="color:#c3d3d8; font-size:0.95em;" data-en="Healthy food is expensive">Lo sano es caro</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+               <p style="text-align:center; color:#4a6a72; font-size:0.75em; margin-top:14px; margin-bottom:0; opacity:0.75;" data-en="Sources: Poore &amp; Nemecek (2018); FAO Aquastat data (2017); Pendrill et al. (2019); FAO (2015, 2020, 2022); World Resources Institute (2018); IPCC Sixth Assessment Report (2022); UN.">
+                  Fuentes: Poore &amp; Nemecek (2018); Datos FAO Aquastat (2017); Pendrill et al. (2019); FAO (2015, 2020, 2022); World Resources Institute (2018); IPCC 6º Informe de Evaluación (2022); ONU.
+               </p>
+
+            </div>
+         </section>
+         <!-- End Algunas cifras Section -->
+
+         <!-- ======= Marco de Impacto - Intro Section ======= -->
+         <section id="mission" style="padding-top: 90px; padding-bottom: 60px; background:#fdf8e3;">
+            <div class="container" data-aos="fade-up">
+               <div class="row align-items-center gy-4">
+                  <div class="col-lg-7">
+                     <span style="display:inline-block; text-transform:uppercas
+                     e; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;" data-en="Our Commitment">Nuestro compromiso</span>
+                     <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0 0 22px 0; letter-spacing:-0.5px;" data-en="Capibara Impact Framework">Marco de impacto Capibara</h2>
+                     <p style="color:#5a6a72; line-height:1.7; font-size:1.15em; margin:0;" data-en="Supporting the purpose of others translates into three commitments:">Acompañar el propósito de otros se traduce en tres compromisos:</p>
+                  </div>
+                  <div class="col-lg-5">
+                     <img src="assets/img/impact.png" alt="Marco de impacto Capibara" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.15);">
                   </div>
                </div>
             </div>
-         </div>
+         </section>
+         <!-- End Intro Section -->
 
-         <!-- Desigualdad -->
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div style="background:#20475a; border-radius:20px; padding:40px 32px; height:100%; text-align:center;">
-               <div style="width:56px; height:56px; margin:0 auto 20px; border-radius:16px; background:rgba(143,209,200,0.15); display:flex; align-items:center; justify-content:center; font-size:26px;">⚖️</div>
-               <p style="text-transform:uppercase; letter-spacing:1.5px; font-size:13px; font-weight:700; color:#8fd1c8; margin-bottom:6px;">Desigualdad</p>
-               <div style="font-size:3em; font-weight:800; color:#ffffff; line-height:1;">50%</div>
-               <p style="color:#c3d3d8; margin:8px 0 26px 0;">de alimentos de pequeños productores, en vulnerabilidad</p>
-               <div style="border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; text-align:left;">
-                  <div style="display:flex; align-items:center; margin-bottom:12px;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">Concentración de la tierra</span>
+         <!-- ======= Tres compromisos Section ======= -->
+         <section id="compromisos" style="background:#cadedf; padding-top:90px; padding-bottom:90px;">
+            <div class="container" data-aos="fade-up">
+               <div class="row gy-4 justify-content-center">
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #3a6b63;">
+                        <span style="color:#3a6b63; font-weight:800; font-size:1.6em;">01</span>
+                        <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;" data-en="With Each Company">Con cada empresa</h3>
+                        <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;" data-en="Measure and strengthen its own impact (portfolio).">Medir y potenciar su impacto propio (portafolio).</p>
+                     </div>
                   </div>
-                  <div style="display:flex; align-items:center;">
-                     <span style="color:#c3d3d8; font-size:0.95em;">Lo sano es caro</span>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #1c3a4a;">
+                        <span style="color:#1c3a4a; font-weight:800; font-size:1.6em;">02</span>
+                        <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;" data-en="With the System">Con el sistema</h3>
+                        <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;" data-en="Add to what each company builds: more market, more legitimacy, more network.">Sumar a lo que cada empresa construye: más mercado, más legitimidad, más red.</p>
+                     </div>
                   </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #20475a;">
+                        <span style="color:#20475a; font-weight:800; font-size:1.6em;">03</span>
+                        <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;" data-en="Within Capibara">A nivel interno en Capibara</h3>
+                        <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;" data-en="Purpose in every decision, even when it is costly. And we hold ourselves to the same measures as everyone else.">El propósito en cada decisión, también cuando cuesta. Y nos medimos igual que a todos.</p>
+                     </div>
+                  </div>
+
                </div>
             </div>
-         </div>
+         </section>
+         <!-- End Tres compromisos Section -->
 
-      </div>
+         <!-- ======= Portafolio de Impacto Section ======= -->
+         <section id="portafolio-impacto" style="padding-top:90px; padding-bottom:90px; background:#fdf8e3;">
+            <div class="container" data-aos="fade-up">
+               <div class="row justify-content-center text-center" style="margin-bottom:50px;">
+                  <div class="col-lg-8">
+                     <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;" data-en="Our Focus Areas">Nuestros ejes</span>
+                     <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0; letter-spacing:-0.5px;" data-en="Impact Portfolio">Portafolio de Impacto</h2>
+                  </div>
+               </div>
 
-      <p style="text-align:center; color:#4a6a72; font-size:0.75em; margin-top:14px; margin-bottom:0; opacity:0.75;">
-         Fuentes: Poore &amp; Nemecek (2018); Datos FAO Aquastat (2017); Pendrill et al. (2019); FAO (2015, 2020, 2022); World Resources Institute (2018); IPCC 6º Informe de Evaluación (2022); ONU.
-      </p>
+               <div class="row gy-4 justify-content-center">
 
-   </div>
-</section>
-<!-- ======= End Algunas cifras Section -->
+                  <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #8fd1c8; text-align:center;">
+                        <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🥗</div>
+                        <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;" data-en="Healthy and Accessible Food">Alimentación saludable y accesible</p>
+                     </div>
+                  </div>
 
+                  <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #6f9391; text-align:center;">
+                        <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🌱</div>
+                        <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;" data-en="Environmental Regeneration">Regeneración ambiental</p>
+                     </div>
+                  </div>
 
+                  <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                     <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #3a6b63; text-align:center;">
+                        <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🤝</div>
+                        <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;" data-en="Producing with Dignity">Producir con dignidad</p>
+                     </div>
+                  </div>
 
+               </div>
 
+               <div class="row justify-content-center" style="margin-top:24px;">
+                  <div class="col-lg-8">
+                     <div style="background:#1c3a4a; color:#ffffff; border-radius:20px; padding:24px; text-align:center;">
+                        <span style="font-weight:800; font-size:1.15em; letter-spacing:0.5px;" data-en="Transform the System">Transformar el sistema</span>
+                     </div>
+                  </div>
+               </div>
 
-
-        <!-- ======= Marco de Impacto - Intro Section ======= -->
-<section id="mission" style="padding-top: 90px; padding-bottom: 60px; background:#fdf8e3;">
-   <div class="container" data-aos="fade-up">
-      <div class="row align-items-center gy-4">
-         <div class="col-lg-7">
-            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">Nuestro compromiso</span>
-            <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0 0 22px 0; letter-spacing:-0.5px;">Marco de impacto Capibara</h2>
-            <p style="color:#5a6a72; line-height:1.7; font-size:1.15em; margin:0;">Acompañar el propósito de otros se traduce en tres compromisos:</p>
-         </div>
-         <div class="col-lg-5">
-            <img src="assets/img/impact.png" alt="Marco de impacto Capibara" style="width: 100%; height: auto; border-radius: 20px; box-shadow: 0 20px 40px rgba(28,58,74,0.15);">
-         </div>
-      </div>
-   </div>
-</section>
-<!-- End Intro Section -->
-
-<!-- ======= Tres compromisos Section ======= -->
-<section id="compromisos" style="background:#cadedf; padding-top:90px; padding-bottom:90px;">
-   <div class="container" data-aos="fade-up">
-      <div class="row gy-4 justify-content-center">
-
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #3a6b63;">
-               <span style="color:#3a6b63; font-weight:800; font-size:1.6em;">01</span>
-               <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;">Con cada empresa</h3>
-               <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;">Medir y potenciar su impacto propio (portafolio).</p>
+               <p style="text-align:center; color:#5a6a72; font-weight:700; font-style:italic; font-size:1.2em; margin-top:36px;" data-en="“Taking care of what sustains us”">"Cuidar lo que nos sostiene"</p>
             </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #1c3a4a;">
-               <span style="color:#1c3a4a; font-weight:800; font-size:1.6em;">02</span>
-               <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;">Con el sistema</h3>
-               <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;">Sumar a lo que cada empresa construye: más mercado, más legitimidad, más red.</p>
-            </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 32px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.18); border-top:4px solid #20475a;">
-               <span style="color:#20475a; font-weight:800; font-size:1.6em;">03</span>
-               <h3 style="color:#1c3a4a; font-weight:800; font-size:1.2em; margin:8px 0 14px 0;">A nivel interno en Capibara</h3>
-               <p style="color:#4a5a62; line-height:1.6; margin:0; font-size:1em;">El propósito en cada decisión, también cuando cuesta. Y nos medimos igual que a todos.</p>
-            </div>
-         </div>
-
-      </div>
-   </div>
-</section>
-<!-- End Tres compromisos Section -->
-        <!-- ======= Portafolio de Impacto Section ======= -->
-<section id="portafolio-impacto" style="padding-top:90px; padding-bottom:90px; background:#fdf8e3;">
-   <div class="container" data-aos="fade-up">
-      <div class="row justify-content-center text-center" style="margin-bottom:50px;">
-         <div class="col-lg-8">
-            <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#3a6b63; margin-bottom:10px;">Nuestros ejes</span>
-            <h2 style="color:#1c3a4a; font-weight:800; font-size:2.2em; margin:0; letter-spacing:-0.5px;">Portafolio de Impacto</h2>
-         </div>
-      </div>
-
-      <div class="row gy-4 justify-content-center">
-
-         <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #8fd1c8; text-align:center;">
-               <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🥗</div>
-               <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;">Alimentación saludable y accesible</p>
-            </div>
-         </div>
-
-         <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #6f9391; text-align:center;">
-               <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🌱</div>
-               <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;">Regeneración ambiental</p>
-            </div>
-         </div>
-
-         <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div style="background:#ffffff; border-radius:20px; padding:36px 28px; height:100%; box-shadow:0 12px 30px rgba(28,58,74,0.10); border-top:4px solid #3a6b63; text-align:center;">
-               <div style="width:52px; height:52px; margin:0 auto 16px; border-radius:14px; background:#d6e3e3; display:flex; align-items:center; justify-content:center; font-size:24px;">🤝</div>
-               <p style="margin:0; color:#1c3a4a; font-weight:800; font-size:1.1em;">Producir con dignidad</p>
-            </div>
-         </div>
-
-      </div>
-
-      <div class="row justify-content-center" style="margin-top:24px;">
-         <div class="col-lg-8">
-            <div style="background:#1c3a4a; color:#ffffff; border-radius:20px; padding:24px; text-align:center;">
-               <span style="font-weight:800; font-size:1.15em; letter-spacing:0.5px;">Transformar el sistema</span>
-            </div>
-         </div>
-      </div>
-
-      <p style="text-align:center; color:#5a6a72; font-weight:700; font-style:italic; font-size:1.2em; margin-top:36px;">"Cuidar lo que nos sostiene"</p>
-   </div>
-</section>
-<!-- End Portafolio de Impacto Section -->
-
-      
+         </section>
+         <!-- End Portafolio de Impacto Section -->
 
          <!-- ======= Cómo medimos lo que hacemos Section ======= -->
-<section id="como-medimos" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
-   <div class="container" data-aos="fade-up">
-      <div class="section-header text-center">
-         <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;">En cada etapa</span>
-         <h2 style="color:#ffffff; font-weight:800; font-size:2.2em; margin:0;">Cómo medimos lo que hacemos</h2>
-      </div>
+         <section id="como-medimos" style="background:#1c3a4a; padding-top:90px; padding-bottom:90px;">
+            <div class="container" data-aos="fade-up">
+               <div class="section-header text-center">
+                  <span style="display:inline-block; text-transform:uppercase; letter-spacing:2px; font-size:14px; font-weight:700; color:#8fd1c8; margin-bottom:10px;" data-en="At Every Stage">En cada etapa</span>
+                  <h2 style="color:#ffffff; font-weight:800; font-size:2.2em; margin:0;" data-en="How We Measure What We Do">Cómo medimos lo que hacemos</h2>
+               </div>
 
-      <div class="row gy-4 justify-content-center" style="margin-top:30px;">
+               <div class="row gy-4 justify-content-center" style="margin-top:30px;">
 
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #8fd1c8;">
-               <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;">Antes de invertir</h3>
-               <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
-                  <li>Evaluamos propósito e impacto de cada empresa</li>
-                  <li>Co-construimos 1 o 2 métricas de materialidad y relevamos su punto de partida</li>
-                  <li>Verificamos riesgos ESG</li>
-                  <li>Blindamos el propósito en los contratos</li>
-               </ul>
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                     <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #8fd1c8;">
+                        <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;" data-en="Before Investing">Antes de invertir</h3>
+                        <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
+                           <li data-en="We assess each company's purpose and impact">Evaluamos propósito e impacto de cada empresa</li>
+                           <li data-en="We co-create 1 or 2 materiality metrics and establish their baseline">Co-construimos 1 o 2 métricas de materialidad y relevamos su punto de partida</li>
+                           <li data-en="We verify ESG risks">Verificamos riesgos ESG</li>
+                           <li data-en="We safeguard purpose in the contracts">Blindamos el propósito en los contratos</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #6f9391;">
+                        <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;" data-en="During the Investment">Durante la inversión</h3>
+                        <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
+                           <li data-en="We participate in governance">Participamos en la gobernanza</li>
+                           <li data-en="We measure the agreed impact indicators">Medimos los indicadores de impacto acordados</li>
+                           <li data-en="We create synergies among portfolio companies">Generamos sinergias entre empresas del portafolio</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                     <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #ffffff;">
+                        <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;" data-en="We Report">Reportamos</h3>
+                        <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
+                           <li data-en="Each company's own impact">El impacto propio de cada empresa</li>
+                           <li data-en="What we add to the system as a portfolio">Lo que sumamos al sistema como portafolio</li>
+                           <li data-en="How we measure ourselves">Cómo nos medimos a nosotras y nosotros mismos</li>
+                        </ul>
+                     </div>
+                  </div>
+
+               </div>
             </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #6f9391;">
-               <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;">Durante la inversión</h3>
-               <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
-                  <li>Participamos en la gobernanza</li>
-                  <li>Medimos los indicadores de impacto acordados</li>
-                  <li>Generamos sinergias entre empresas del portafolio</li>
-               </ul>
-            </div>
-         </div>
-
-         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div style="background:#20475a; border-radius:20px; padding:36px 32px; height:100%; border-top:4px solid #ffffff;">
-               <h3 style="color:#ffffff; font-weight:800; font-size:1.2em; margin-bottom:18px;">Reportamos</h3>
-               <ul style="color:#c3d3d8; line-height:1.7; margin:0; padding-left:20px; font-size:1em;">
-                  <li>El impacto propio de cada empresa</li>
-                  <li>Lo que sumamos al sistema como portafolio</li>
-                  <li>Cómo nos medimos a nosotras y nosotros mismos</li>
-               </ul>
-            </div>
-         </div>
-
-      </div>
-   </div>
-</section>
-<!-- End Cómo medimos lo que hacemos Section -->
+         </section>
+         <!-- End Cómo medimos lo que hacemos Section -->
 
       </main>
+      <!-- End #main -->
+
+      <!-- ======= Footer ======= -->
+      <footer id="footer" class="footer" style="background-image: url(assets/img/footer-2.jpg);">
+         <div class="footer-content position-relative">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                     <div class="footer-info">
+                        <img src="assets/img/logo_b.png" alt="Logo Capibara" style="width:220px; max-width:60%; height:auto; margin:0 0 12px -40px; display:block;" />
+                        <div class="social-links d-flex mt-3">
+                           <a href="https://twitter.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                           <a href="https://www.instagram.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                           <a href="https://www.linkedin.com/company/capibaralat/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-legal text-center position-relative">
+            <div class="container">
+               <div class="copyright">
+                  &copy; <strong><span>Capibara</span></strong>. <span data-en="All Rights Reserved.">Todos los derechos reservados.</span>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer -->
 
       <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
       <div id="preloader"></div>
@@ -364,35 +387,31 @@
       <script src="assets/js/main.js"></script>
       <!-- Developed by Madu Muñoz @madumunoz, based on template by Bootstrap -->
 
-      <!-- ======= Footer ======= -->
-      <!-- ======= Footer ======= -->
-      <footer id="footer" class="footer" style="background-image: url(assets/img/footer-2.jpg);">
-         <div class="footer-content position-relative">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="footer-info">
-                        <img src="assets/img/logo_b.png" alt="Logo Capibara" style="width:220px; max-width:60%; height:auto; margin:0 0 12px -40px; display:block;" />
-                        <div class="social-links d-flex mt-3">
-                           <a href="https://twitter.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                           <a href="https://www.instagram.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                         <a href="https://www.linkedin.com/company/capibaralat/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="footer-legal text-center position-relative">
-            <div class="container">
-               <div class="copyright">
-                  &copy; Copyright <strong><span>Capibara</span></strong>. All Rights Reserved
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- End Footer -->
-      <!-- End Footer -->
+      <!-- Idioma ES/EN -->
+      <script>
+      (function () {
+        function setLang(lang) {
+          document.documentElement.lang = lang;
+          document.querySelectorAll('[data-en]').forEach(function (el) {
+            if (!el.hasAttribute('data-es')) el.setAttribute('data-es', el.innerHTML);
+            el.innerHTML = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-es');
+          });
+          document.querySelectorAll('[data-en-placeholder]').forEach(function (el) {
+            if (!el.hasAttribute('data-es-placeholder')) el.setAttribute('data-es-placeholder', el.getAttribute('placeholder') || '');
+            el.setAttribute('placeholder', lang === 'en' ? el.getAttribute('data-en-placeholder') : el.getAttribute('data-es-placeholder'));
+          });
+          document.querySelectorAll('[data-lang-btn]').forEach(function (b) {
+            var active = b.getAttribute('data-lang-btn') === lang;
+            b.style.background = active ? '#F8EDD5' : 'transparent';
+            b.style.color = active ? '#1B2A4A' : '#F8EDD5';
+          });
+          try { localStorage.setItem('capibaraLang', lang); } catch (e) {}
+        }
+        window.setLang = setLang;
+        var saved = 'es';
+        try { saved = localStorage.getItem('capibaraLang') || 'es'; } catch (e) {}
+        setLang(saved);
+      })();
+      </script>
    </body>
 </html>

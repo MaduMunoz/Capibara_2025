@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
       <meta charset="utf-8">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <!-- Primary Meta Tags -->
-      <title>Capibara</title>
-      <meta name="title" content="Capibara" />
+      <title data-en="About Us | Capibara">Nosotros | Capibara</title>
+      <meta name="title" content="Nosotros | Capibara" />
       <meta name="description" content="Capibara es una holding company que invierte en empresas del Cono Sur con EBITDA positivo y fundadores comprometidos con transformar los sistemas alimentarios. Ofrece capital flexible y acompañamiento estratégico de largo plazo, siendo compañeros de ruta más que inversionistas." />
       <!-- Open Graph / Facebook -->
       <meta property="og:type" content="website" />
@@ -19,7 +19,6 @@
       <meta property="twitter:title" content="Capibara" />
       <meta property="twitter:description" content="Capibara es una holding company que invierte en empresas del Cono Sur con EBITDA positivo y fundadores comprometidos con transformar los sistemas alimentarios. Ofrece capital flexible y acompañamiento estratégico de largo plazo, siendo compañeros de ruta más que inversionistas." />
       <meta property="twitter:image" content="assets/img/meta.jpg" />
-      <!-- Meta Tags Generated with https://metatags.io -->
       <!-- Favicons -->
       <link href="assets/img/favicon.png" rel="icon">
       <link href="assets/img/favicon.png" rel="apple-touch-icon">
@@ -44,7 +43,7 @@
          <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <!-- Logo -->
             <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo2.png" alt="Logo Capibara" class="my-2" style="max-height:20px;">
+               <img src="assets/img/logo2.png" alt="Logo Capibara" class="my-2" style="max-height:20px;">
             </a>
             <!-- Botones del menú móvil -->
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -52,12 +51,18 @@
             <!-- Menú principal -->
             <nav id="navbar" class="navbar">
                <ul>
-                  <li><a href="index.html">Por qué Capibara</a></li>
-                  <li><a href="nosotros.html" class="active">Nosotros</a></li>
-                  <li><a href="empresas.html">Cómo invertimos</a></li>
-                  <li><a href="portafolio.html">Portafolio</a></li>
-                  <li><a href="marco de impacto.html">Marco de impacto</a></li>
-                  <li><a href="contactanos.html">Contáctanos</a></li>
+                  <li><a href="index.html" data-en="Why Capibara">Por qué Capibara</a></li>
+                  <li><a href="nosotros.html" class="active" data-en="About Us">Nosotros</a></li>
+                  <li><a href="empresas.html" data-en="How We Invest">Cómo invertimos</a></li>
+                  <li><a href="portafolio.html" data-en="Portfolio">Portafolio</a></li>
+                  <li><a href="marco de impacto.html" data-en="Impact Framework">Marco de impacto</a></li>
+                  <li><a href="contactanos.html" data-en="Contact Us">Contáctanos</a></li>
+                  <li class="nav-item" style="display:flex; align-items:center; margin-left:16px;">
+                     <div style="display:inline-flex; border:1px solid #F8EDD5; border-radius:20px; overflow:hidden; font-size:13px; font-weight:600; letter-spacing:0.5px;">
+                        <button type="button" data-lang-btn="es" onclick="setLang('es')" style="background:#F8EDD5; color:#1B2A4A; border:none; padding:6px 12px; cursor:pointer;">ES</button>
+                        <button type="button" data-lang-btn="en" onclick="setLang('en')" style="background:transparent; color:#F8EDD5; border:none; padding:6px 12px; cursor:pointer;">EN</button>
+                     </div>
+                  </li>
                </ul>
             </nav>
             <!-- .navbar -->
@@ -71,7 +76,7 @@
             <div class="container">
                <div class="row justify-content-center">
                   <div class="col-lg-6 d-flex justify-content-center">
-                     <img src="assets/img/logo_b.png" alt="Logo Ambition Loop" class="my-4" width="100%" data-aos="fade-down">
+                     <img src="assets/img/logo_b.png" alt="Logo Capibara" class="my-4" width="100%" data-aos="fade-down">
                   </div>
                </div>
             </div>
@@ -85,280 +90,288 @@
             <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
             <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
             <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+               <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
             </a>
             <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+               <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
             </a>
          </div>
       </section>
       <!-- End Carrusel Section -->
 
       <main id="main">
-       <!-- ======= Socios fundadores Section ======= -->
-<section id="fundadores" class="team">
-   <div class="container" data-aos="fade-up">
-      <div class="section-header">
-         <h2>Socios fundadores</h2>
-      </div>
-      <div class="row gy-5 justify-content-center">
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/VSUAREZ.jpeg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/virginia-suarez-768a792a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+         <!-- ======= Socios fundadores Section ======= -->
+         <section id="fundadores" class="team">
+            <div class="container" data-aos="fade-up">
+               <div class="section-header">
+                  <h2 data-en="Founding Partners">Socios fundadores</h2>
                </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Virginia Suárez</h4>
-               <h6>Uruguay</h6>
-               <p>Banquera y directora de empresas. Especialista en finanzas para el desarrollo. Inversora de Impacto. Presidenta Sistema B Uruguay.</p>
-            </div>
-         </div>
+               <div class="row gy-5 justify-content-center">
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-               <img src="assets/img/team/ACANTON.png" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://ar.linkedin.com/in/alejocanton" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Alejo Cantón</h4>
-               <h6>Argentina</h6>
-               <p>Fundador de Vistage Argentina. Director de B Lab Global y ex presidente de Sistema B Internacional.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/VSUAREZ.jpeg" class="img-fluid" alt="Virginia Suárez">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/virginia-suarez-768a792a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Virginia Suárez</h4>
+                        <h6>Uruguay</h6>
+                        <p data-en="Banker and corporate director. Specialist in development finance. Impact investor. President of Sistema B Uruguay.">Banquera y directora de empresas. Especialista en finanzas para el desarrollo. Inversora de Impacto. Presidenta Sistema B Uruguay.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-               <img src="assets/img/team/GMUNOZ.jpg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://cl.linkedin.com/in/gonzalomunozabogabir" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Gonzalo Muñoz</h4>
-               <h6>Chile</h6>
-               <p>High Level Champion COP 25. Co Fundador Sistema B, Fundador de Manuia, Triciclos y Polkura.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                     <div class="member-img">
+                        <img src="assets/img/team/ACANTON.png" class="img-fluid" alt="Alejo Cantón">
+                        <div class="social">
+                           <a href="https://ar.linkedin.com/in/alejocanton" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Alejo Cantón</h4>
+                        <h6>Argentina</h6>
+                        <p data-en="Founder of Vistage Argentina. Director at B Lab Global and former President of Sistema B International.">Fundador de Vistage Argentina. Director de B Lab Global y ex presidente de Sistema B Internacional.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-               <img src="assets/img/team/LMANNS.jpeg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://cl.linkedin.com/in/lili-manns-7011865b" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Liliana Manns</h4>
-               <h6>Chile</h6>
-               <p>Directora de Comunidad de The Impact, red global de FFOO con compromisos de inversión de impacto. Directora de Empresas y referente global de inversiones de impacto.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                     <div class="member-img">
+                        <img src="assets/img/team/GMUNOZ.jpg" class="img-fluid" alt="Gonzalo Muñoz">
+                        <div class="social">
+                           <a href="https://cl.linkedin.com/in/gonzalomunozabogabir" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Gonzalo Muñoz</h4>
+                        <h6>Chile</h6>
+                        <p data-en="High-Level Champion for COP25. Co-founder of Sistema B and founder of Manuia, Triciclos and Polkura.">High Level Champion COP 25. Co Fundador Sistema B, Fundador de Manuia, Triciclos y Polkura.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/FGONZALEZ.jpg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://py.linkedin.com/in/fidugonzalez" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Fidu González</h4>
-               <h6>Paraguay</h6>
-               <p>Emprendedor e inversor de start ups y empresas de impacto. Fundador de Vistage Paraguay y América Central; y socio en Chile, Brasil y Uruguay.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                     <div class="member-img">
+                        <img src="assets/img/team/LMANNS.jpeg" class="img-fluid" alt="Liliana Manns">
+                        <div class="social">
+                           <a href="https://cl.linkedin.com/in/lili-manns-7011865b" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Liliana Manns</h4>
+                        <h6>Chile</h6>
+                        <p data-en="Community Director at The Impact, a global network of family offices with impact investment commitments. Corporate director and a global reference in impact investing.">Directora de Comunidad de The Impact, red global de FFOO con compromisos de inversión de impacto. Directora de Empresas y referente global de inversiones de impacto.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/NHUGHES.jpg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://uy.linkedin.com/in/natalia-hughes-38b54b158/en" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Natalia Hughes</h4>
-               <h6>Uruguay</h6>
-               <p>Abogada y Directora de Sistema B Internacional. Fundadora del primer fideicomiso B y de GAIL. Redactora de la ley BIC. Dedicada al triple impacto.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/FGONZALEZ.jpg" class="img-fluid" alt="Fidu González">
+                        <div class="social">
+                           <a href="https://py.linkedin.com/in/fidugonzalez" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Fidu González</h4>
+                        <h6>Paraguay</h6>
+                        <p data-en="Entrepreneur and investor in start-ups and impact companies. Founder of Vistage Paraguay and Central America, and partner in Chile, Brazil and Uruguay.">Emprendedor e inversor de start ups y empresas de impacto. Fundador de Vistage Paraguay y América Central; y socio en Chile, Brasil y Uruguay.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/JLARENAS.jpeg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://cl.linkedin.com/in/juanpablolarenas" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Juan Pablo Larenas</h4>
-               <h6>Chile</h6>
-               <p>CEO de Capibara. Co Fundador de Sistema B en América Latina. Socio y Director de varias Empresas B.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/NHUGHES.jpg" class="img-fluid" alt="Natalia Hughes">
+                        <div class="social">
+                           <a href="https://uy.linkedin.com/in/natalia-hughes-38b54b158/en" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Natalia Hughes</h4>
+                        <h6>Uruguay</h6>
+                        <p data-en="Lawyer and Director of Sistema B International. Founder of the first B trust and of GAIL. Drafter of the BIC Law. Dedicated to triple impact.">Abogada y Directora de Sistema B Internacional. Fundadora del primer fideicomiso B y de GAIL. Redactora de la ley BIC. Dedicada al triple impacto.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/RMINICUCCI.jpg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://ar.linkedin.com/in/ricky-minicucci-79b64651" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Ricky Minicucci</h4>
-               <h6>Argentina</h6>
-               <p>Emprendedor e inversor de empresas de impacto. Fundador de Trasa y Presidente del Círculo Empresario de Sistema B.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/JLARENAS.jpeg" class="img-fluid" alt="Juan Pablo Larenas">
+                        <div class="social">
+                           <a href="https://cl.linkedin.com/in/juanpablolarenas" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Juan Pablo Larenas</h4>
+                        <h6>Chile</h6>
+                        <p data-en="CEO of Capibara. Co-founder of Sistema B in Latin America. Partner and Director of several B Corps.">CEO de Capibara. Co Fundador de Sistema B en América Latina. Socio y Director de varias Empresas B.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/KWINEKKER.jpeg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://py.linkedin.com/in/karenwinekker/en" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Karen Winekker</h4>
-               <h6>Paraguay</h6>
-               <p>Ejecutiva y emprendedora de impacto. Especializada en modelos de agricultura y ganadería regenerativa. Directora de Sistema B Internacional. Máster en Economías Regenerativas por Schumacher College.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/RMINICUCCI.jpg" class="img-fluid" alt="Ricky Minicucci">
+                        <div class="social">
+                           <a href="https://ar.linkedin.com/in/ricky-minicucci-79b64651" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Ricky Minicucci</h4>
+                        <h6>Argentina</h6>
+                        <p data-en="Entrepreneur and investor in impact companies. Founder of Trasa and President of the Sistema B Business Circle.">Emprendedor e inversor de empresas de impacto. Fundador de Trasa y Presidente del Círculo Empresario de Sistema B.</p>
+                     </div>
+                  </div>
 
-         <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-               <img src="assets/img/team/SFIGUREON.jpeg" class="img-fluid" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/sebasti%C3%A1n-figuer%C3%B3n-22ba6646/" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Sebastián Figuerón</h4>
-               <h6>Uruguay</h6>
-               <p>Especialista y empresario agroindustrial, impulsor regional de tecnologías que combinan eficiencia productiva y sostenibilidad ambiental. Ex presidente de Sistema B Uruguay.</p>
-            </div>
-         </div>
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/KWINEKKER.jpeg" class="img-fluid" alt="Karen Winekker">
+                        <div class="social">
+                           <a href="https://py.linkedin.com/in/karenwinekker/en" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Karen Winekker</h4>
+                        <h6>Paraguay</h6>
+                        <p data-en="Impact executive and entrepreneur. Specialized in regenerative agriculture and livestock models. Director of Sistema B International. Master's in Regenerative Economics from Schumacher College.">Ejecutiva y emprendedora de impacto. Especializada en modelos de agricultura y ganadería regenerativa. Directora de Sistema B Internacional. Máster en Economías Regenerativas por Schumacher College.</p>
+                     </div>
+                  </div>
 
-      </div>
-   </div>
-</section>
-<!-- End Socios fundadores Section -->
+                  <div class="col-lg-3 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img">
+                        <img src="assets/img/team/SFIGUREON.jpeg" class="img-fluid" alt="Sebastián Figuerón">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/sebasti%C3%A1n-figuer%C3%B3n-22ba6646/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Sebastián Figuerón</h4>
+                        <h6>Uruguay</h6>
+                        <p data-en="Agribusiness specialist and entrepreneur, and a regional driver of technologies that combine productive efficiency with environmental sustainability. Former President of Sistema B Uruguay.">Especialista y empresario agroindustrial, impulsor regional de tecnologías que combinan eficiencia productiva y sostenibilidad ambiental. Ex presidente de Sistema B Uruguay.</p>
+                     </div>
+                  </div>
 
-<!-- ======= Comité Ejecutivo Section ======= -->
-<section id="comite-ejecutivo" class="team" style="background:#cadedf;">
-   <div class="container" data-aos="fade-up">
-      <div class="section-header">
-         <h2>Comité Ejecutivo</h2>
-      </div>
-      <div class="row gy-5 justify-content-center">
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/VSUAREZ.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/virginia-suarez-768a792a/" target="_blank"><i class="bi bi-linkedin"></i></a>
                </div>
             </div>
-            <div class="member-info text-center">
-               <h4>Virginia Suárez</h4>
-               <h6>Finanzas</h6>
-               <h6>Uruguay</h6>
-               <p>Banquera y directora de empresas. Especialista en finanzas para el desarrollo. Inversora de Impacto. Presidenta Sistema B Uruguay.</p>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/NHUGHES.jpg" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://uy.linkedin.com/in/natalia-hughes-38b54b158/en" target="_blank"><i class="bi bi-linkedin"></i></a>
+         </section>
+         <!-- End Socios fundadores Section -->
+
+         <!-- ======= Comité Ejecutivo Section ======= -->
+         <section id="comite-ejecutivo" class="team" style="background:#cadedf;">
+            <div class="container" data-aos="fade-up">
+               <div class="section-header">
+                  <h2 data-en="Executive Committee">Comité Ejecutivo</h2>
+               </div>
+               <div class="row gy-5 justify-content-center">
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/VSUAREZ.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="Virginia Suárez">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/virginia-suarez-768a792a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Virginia Suárez</h4>
+                        <h6 data-en="Finance">Finanzas</h6>
+                        <h6>Uruguay</h6>
+                        <p data-en="Banker and corporate director. Specialist in development finance. Impact investor. President of Sistema B Uruguay.">Banquera y directora de empresas. Especialista en finanzas para el desarrollo. Inversora de Impacto. Presidenta Sistema B Uruguay.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/NHUGHES.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Natalia Hughes">
+                        <div class="social">
+                           <a href="https://uy.linkedin.com/in/natalia-hughes-38b54b158/en" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Natalia Hughes</h4>
+                        <h6>Legal</h6>
+                        <h6>Uruguay</h6>
+                        <p data-en="Lawyer and Director of Sistema B International. Founder of the first B trust and of GAIL. Drafter of the BIC Law.">Abogada y Directora de Sistema B Internacional. Fundadora del primer fideicomiso B y de GAIL. Redactora de la ley BIC.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/JLARENAS.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="Juan Pablo Larenas">
+                        <div class="social">
+                           <a href="https://cl.linkedin.com/in/juanpablolarenas" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Juan Pablo Larenas</h4>
+                        <h6 data-en="CEO of Capibara">CEO de Capibara</h6>
+                        <h6>Chile</h6>
+                        <p data-en="Co-founder of Sistema B in Latin America. Partner and Director of several B Corps.">Co Fundador de Sistema B en América Latina. Socio y Director de varias Empresas B.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/IVANA.png" style="width:100%; height:100%; object-fit:cover;" alt="Ivana Calcagno">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/ivanacalcagno/?locale=en" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Ivana Calcagno</h4>
+                        <h6 data-en="Legal Coordinator">Coordinadora Legal</h6>
+                        <h6>Uruguay</h6>
+                        <p data-en="Lawyer. Corporate legal advisor. Member of GAIL. Expert in impact contracts.">Abogada. Asesora legal de empresas. Miembro de GAIL. Experta en contratos de impacto.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="250">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/EZAHA.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="Ester Zaha">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/maria-ester-zaha-41286329/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Ester Zaha</h4>
+                        <h6 data-en="Operations / Investments">Operaciones / Inversiones</h6>
+                        <h6>Argentina | Uruguay</h6>
+                        <p data-en="Economist with experience in Latin America and Sub-Saharan Africa. Expert in sustainable finance and environmental and social impact.">Economista con trayectoria en América Latina y África subsahariana. Experta en finanzas sostenibles, impacto ambiental y social.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                     <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
+                        <img src="assets/img/team/ana.png" style="width:100%; height:100%; object-fit:cover;" alt="Ana Isabel Dávila">
+                        <div class="social">
+                           <a href="https://www.linkedin.com/in/anaisabeldn/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                     </div>
+                     <div class="member-info text-center">
+                        <h4>Ana Isabel Dávila</h4>
+                        <h6 data-en="Intern">Pasante</h6>
+                        <h6 data-en="Panama">Panamá</h6>
+                        <p data-en="Business student focused on economics and sustainability.">Estudiante de negocios con enfoque en economía y sostenibilidad.</p>
+                     </div>
+                  </div>
+
                </div>
             </div>
-            <div class="member-info text-center">
-               <h4>Natalia Hughes</h4>
-               <h6>Legal</h6>
-               <h6>Uruguay</h6>
-               <p>Abogada y Directora de Sistema B Internacional. Fundadora del primer fideicomiso B y de GAIL. Redactora de la ley BIC.</p>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/JLARENAS.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://cl.linkedin.com/in/juanpablolarenas" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Juan Pablo Larenas</h4>
-               <h6>CEO de Capibara</h6>
-               <h6>Chile</h6>
-               <p>Co Fundador de Sistema B en América Latina. Socio y Director de varias Empresas B.</p>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/IVANA.png" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/ivanacalcagno/?locale=en" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Ivana Calcagno</h4>
-               <h6>Coordinadora Legal</h6>
-               <h6>Uruguay</h6>
-               <p>Abogada. Asesora legal de empresas. Miembro de GAIL. Experta en contratos de impacto.</p>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="250">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/EZAHA.jpeg" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/maria-ester-zaha-41286329/" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Ester Zaha</h4>
-               <h6>Operaciones/ Inversiones</h6>
-               <h6>Argentina | Uruguay</h6>
-               <p>Economista con trayectoria en América Latina y África subsahariana. Experta en finanzas sostenibles, impacto ambiental y social.</p>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img" style="width:180px; height:180px; margin:0 auto; border-radius:50%; overflow:hidden;">
-               <img src="assets/img/team/ana.png" style="width:100%; height:100%; object-fit:cover;" alt="">
-               <div class="social">
-                  <a href="https://www.linkedin.com/in/anaisabeldn/" target="_blank"><i class="bi bi-linkedin"></i></a>
-               </div>
-            </div>
-            <div class="member-info text-center">
-               <h4>Ana Isabel Dávila</h4>
-               <h6>Pasante</h6>
-               <h6>Panamá</h6>
-               <p>Estudiante de negocios con enfoque en economía y sostenibilidad.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- End Comité Ejecutivo Section -->
+         </section>
+         <!-- End Comité Ejecutivo Section -->
+
       </main>
       <!-- End #main -->
 
       <!-- ======= Footer ======= -->
-     <footer id="footer" class="footer" style="background-image: url(assets/img/footer-2.jpg);">
+      <footer id="footer" class="footer" style="background-image: url(assets/img/footer-2.jpg);">
          <div class="footer-content position-relative">
             <div class="container">
                <div class="row">
                   <div class="col-lg-4 col-md-6">
                      <div class="footer-info">
-                       <img src="assets/img/logo_b.png" alt="Logo Capibara" style="width:220px; max-width:60%; height:auto; margin:0 0 12px -40px; display:block;" />
+                        <img src="assets/img/logo_b.png" alt="Logo Capibara" style="width:220px; max-width:60%; height:auto; margin:0 0 12px -40px; display:block;" />
                         <div class="social-links d-flex mt-3">
                            <a href="https://twitter.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
                            <a href="https://www.instagram.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                            <a href="https://www.linkedin.com/company/capibaralat/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-
                         </div>
                      </div>
                   </div>
@@ -368,27 +381,13 @@
          <div class="footer-legal text-center position-relative">
             <div class="container">
                <div class="copyright">
-                  &copy; Copyright <strong><span>Capibara</span></strong>. All Rights Reserved
+                  &copy; <strong><span>Capibara</span></strong>. <span data-en="All Rights Reserved.">Todos los derechos reservados.</span>
                </div>
             </div>
          </div>
       </footer>
-      <!-- End Footer -->>
-                  <!-- <div class="col-lg-2 col-md-3 footer-links">
-                     <ul>
-                       <li><a href="index.html" class="active">Home</a></li>
-                       <li><a href="#mission">Mission</a></li>
-                       <li><a href="#principles">Beliefs</a></li>
-                       <li><a href="#areas">Thematic Areas</a></li>
-                       <li><a href="#about">About us</a></li>
-                       <li><a href="#founders">Founders</a></li>
-                       <li><a href="#partners">Partners</a></li>
-                     </ul>
-                     </div> -->
-                  <!-- End footer links column-->
-               
       <!-- End Footer -->
-      
+
       <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
       <div id="preloader"></div>
       <!-- Vendor JS Files -->
@@ -402,5 +401,32 @@
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
       <!-- Developed by Madu Muñoz @madumunoz, based on template by Bootstrap -->
+
+      <!-- Idioma ES/EN -->
+      <script>
+      (function () {
+        function setLang(lang) {
+          document.documentElement.lang = lang;
+          document.querySelectorAll('[data-en]').forEach(function (el) {
+            if (!el.hasAttribute('data-es')) el.setAttribute('data-es', el.innerHTML);
+            el.innerHTML = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-es');
+          });
+          document.querySelectorAll('[data-en-placeholder]').forEach(function (el) {
+            if (!el.hasAttribute('data-es-placeholder')) el.setAttribute('data-es-placeholder', el.getAttribute('placeholder') || '');
+            el.setAttribute('placeholder', lang === 'en' ? el.getAttribute('data-en-placeholder') : el.getAttribute('data-es-placeholder'));
+          });
+          document.querySelectorAll('[data-lang-btn]').forEach(function (b) {
+            var active = b.getAttribute('data-lang-btn') === lang;
+            b.style.background = active ? '#F8EDD5' : 'transparent';
+            b.style.color = active ? '#1B2A4A' : '#F8EDD5';
+          });
+          try { localStorage.setItem('capibaraLang', lang); } catch (e) {}
+        }
+        window.setLang = setLang;
+        var saved = 'es';
+        try { saved = localStorage.getItem('capibaraLang') || 'es'; } catch (e) {}
+        setLang(saved);
+      })();
+      </script>
    </body>
 </html>
